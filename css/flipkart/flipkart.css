@@ -1,0 +1,296 @@
+/* mobile diplay */
+@media screen and (min-width:0px) and (max-width:400px) {
+    body {
+        justify-content: space-evenly;
+
+    }
+}
+
+/* Tablet display */
+@media screen and (min-width: 401px) and (max-width:600px) {
+    body {
+        justify-content: space-evenly;
+
+    }
+}
+
+/* Laptop display */
+@media screen and (min-width:601px) and (max-width:700px) {
+    body {
+        justify-content: space-evenly;
+
+    }
+}
+
+/* Television display */
+@media screen and (min-width:701px) {
+    body {
+        justify-content: space-evenly;
+    }
+}
+
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.head {
+    margin-top: 0px;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    /* border: 1px solid black; */
+}
+
+.wid {
+    /* border: 1px solid white; */
+    background-color: #F0F5FF;
+    border-radius: 2px;
+
+}
+
+.fourtop {
+    display: flex;
+    height: 209px;
+    width: 320.95px;
+}
+
+.one1 {
+    display: flex;
+    padding-left: 0vh;
+}
+
+.one21 {
+    display: flex;
+
+}
+
+.one2 {
+    width: 44px;
+    height: 35px;
+    padding-top: 8px;
+
+
+}
+
+.one3 {
+    height: 45px;
+    padding-right: 320px;
+    padding-left: 20px;
+    background-color: #F0F5FF;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    color: #F0F5FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+}
+
+.input {
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: medium
+}
+
+select {
+    border: none;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1334px;
+    height: 140px;
+    /* border: 2px solid black;  */
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+
+.sp1 {
+    position: relative;
+    top: 17px;
+    right: -2px;
+    /* border: 2px solid black; */
+}
+
+.sp2 {
+    position: relative;
+    top: 17px;
+    right: -2px;
+    /* border: 2px solid black; */
+}
+
+.sp3 {
+    position: relative;
+    top: 17px;
+    right: -2px;
+    /* border: 2px solid black; */
+}
+
+.sp4 {
+    position: relative;
+    top: 17px;
+    right: 0px;
+    /* border: 2px solid black; */
+}
+
+.sp5 {
+    position: relative;
+    top: 17px;
+    right: -2px;
+    /* border: 2px solid black; */
+}
+
+.sp6 {
+    position: relative;
+    top: 17px;
+    right: -2px;
+    /* border: 2px solid black; */
+}
+
+.sp7 {
+    position: relative;
+    top: 17px;
+    right: -2px;
+    /* border: 2px solid black; */
+}
+
+.sp8 {
+    position: relative;
+    top: 17px;
+    right: -2px;
+    /* border: 2px solid black; */
+}
+
+.sp9 {
+    position: relative;
+    top: 17px;
+    right: -2px;
+    /* border: 2px solid black; */
+}
+
+.boe1 {
+    display: flex;
+    padding-left: 5vh;
+    padding-top: 2vh;
+    /* border: 2px solid black; */
+}
+.boe2 {
+    display: flex;
+    padding-left: 5vh;
+    padding-top: 2vh;
+    /* border: 2px solid black; */
+}
+.boe3 {
+    display: flex;
+    padding-left: 5vh;
+    padding-top: 2vh;
+    /* border: 2px solid black; */
+}
+.boe4 {
+    display: flex;
+    padding-left: 5vh;
+    padding-top: 2vh;
+    /* border: 2px solid black; */
+}
+
+.ele2 {
+    padding-left: 180vh;
+}
+
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.four1 {
+    height: 129px;
+    width: 252px;
+    position: relative;
+    left: 43px;
+    right: 10px;
+    
+}
+
+.for {
+    height: 200px;
+    width: 252px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.for1{
+    
+    /* border: 1px solid #E0E0E0; */
+    position: relative;
+    top: 25px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+}
+
+.for2{
+    /* border: 1px solid #E0E0E0; */
+    position: relative;
+    top: 59px;
+    left: 16px;
+    right: 10px;
+}
+.for3{
+    /* border: 1px solid #E0E0E0; */
+      position: relative;
+    position: relative;
+    top: 39px;
+    left: 73px;
+
+}
+
+.for4{
+    /* border: 1px solid #E0E0E0; */
+    position: relative;
+    top: 59px;
+    left: 105px;
+}
+
+.hel1{
+    position: relative;
+    left: 50px;
+    right: 10px;
+    top: 50px;
+bottom: 10px;}
+.hel2{
+    position: relative;
+    left: 92px;
+    right: 10px;
+    top: 57px;
+bottom: 10px;}
+.hel4{
+    position: relative;
+    left: 56px;
+    right: 10px;
+    top: 13px;
+bottom: 10px;}
+.hel3{
+    position: relative;
+    left: 30px;
+    right: 10px;
+    top: 10px;
+bottom: 10px;}
+
+.flights{
+    position: relative;
+    top: 31px;
+    left: 184px;
+}
+pre{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
