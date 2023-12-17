@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <style>
+        body {
+            background-image: url("./2.jpg");
+            /* background-repeat: no-repeat; */
+            background-size: cover;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+
+        .parent {
+            height: 96vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            position: relative;
+        }
+
+        .sun {
+            animation-name: mercury;
+            animation-duration: 80s;
+            animation-iteration-count: infinite;
+            position: sticky;
+            top: 0px;
+            left: 92vh;
+        }
+
+        @keyframes sun {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .mer {
+            position: relative;
+            left: 50vh;
+        }
+
+        .mer {
+            height: 280px;
+            animation-name: mercury;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear
+        }
+
+        @keyframes mercury {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .venus {
+            position: relative;
+            left: 32vh;
+        }
+
+        .venus {
+            height: 355px;
+            animation-name: venus;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear
+        }
+
+        @keyframes venus {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .earth {
+            position: relative;
+            left: 10vh;
+        }
+
+        .earth {
+            height: 480px;
+            animation-name: earth;
+            animation-duration: 35s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear
+        }
+
+        @keyframes earth {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .mars {
+            position: relative;
+            left: 5vh;
+        }
+
+        .mars {
+            height: 590px;
+            animation-name: mars;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear
+        }
+
+        @keyframes mars {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .jupiter {
+            position: relative;
+            left: -30vh;
+        }
+
+        .jupiter {
+            height: 700px;
+            /* animation-delay: 10s; */
+            animation-name: jupiter;
+            animation-duration: 30s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear
+        }
+
+        @keyframes jupiter {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .saturn {
+            position: relative;
+            left: -50vh;
+        }
+
+        .saturn {
+            height: 900px;
+            animation-name: saturn;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            /* animation-delay: 10s; */
+
+            animation-timing-function: linear
+        }
+
+        @keyframes saturn {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .uranus {
+            position: relative;
+            left: -70vh;
+        }
+
+        .uranus {
+            height: 1000px;
+            animation-name: uranus;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear
+        }
+
+        @keyframes uranus {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .neptune {
+            position: relative;
+            left: -90vh;
+        }
+
+        .neptune {
+            height: 1100px;
+            animation-name: neptune;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear
+        }
+
+        @keyframes neptune {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <link rel="icon" href="./earth-modified.png">
+</head>
+
+<body>
+    <div class="parent">
+        <div class="sun"><img src="./pia03149-copy-modified.png" height="200px" width="200px" alt="sun"></div>
+        <div class="mer"><img src="./mercury-modified.png" alt="mer" height="20px" width="20px"></div>
+        <div class="venus"> <img src="./venus-modified.png" alt="venus" height="30px" width="30px"></div>
+        <div class="earth"> <img src="./earth-modified.png" alt="earth" height="40px" width="40px"></div>
+        <div class="mars"><img src="./mars.png" alt="" height="40px" width="40px"></div>
+        <div class="jupiter"><img src="./jupiter-modified.png" alt="" height="60px" width="60px"></div>
+        <div class="saturn"><img src="./Satrun.jpg" alt="" height="60px" width="60px"></div>
+        <div class="uranus"><img src="./uranus-modified.png" alt="" height="30px" width="30px"></div>
+        <div class="neptune"><img src="./neptune-modified.png" alt="" height="30px" width="30px"></div>
+    </div>
+</body>
+
+</html>
