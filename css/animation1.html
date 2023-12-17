@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+        .box {
+            height: 200px;
+            width: 200px;
+            animation-name: boxmoving;
+            animation-duration: 6s;
+            animation-iteration-count:infinite;
+            position: relative;
+            border-radius: 50%;
+        }
+
+        @keyframes boxmoving {
+            0% {
+                background-color: aqua;
+                top: 0px;
+                right: 0px;
+            }
+            
+            25%{
+                background-color: lightcoral;
+                top: 0px;
+                left: 500px;
+            }
+            50%{
+                background-color: lawngreen;
+                top: 500px;
+                left: 500px;
+                box-shadow:3px 3px 40px  gray  ;
+            }
+            75%{
+                background-color: lightseagreen;
+                top: 500px;
+                left: 0px;
+                box-shadow:3px 3px 40px  gray  ;
+            }
+            100%{
+                background-color: lightblue;
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>

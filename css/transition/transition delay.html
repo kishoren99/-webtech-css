@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {}
+
+        .one {
+            transition-duration: 2s;
+            height: 100px;
+            width: 100px;
+            transition-timing-function: linear;
+            background-color: red;
+        }
+
+        .two {
+            height: 100px;
+            width: 100px;
+            transition-timing-function: ease;
+            transition-duration: 5s;
+            background-color: steelblue;
+        }
+
+        .three {
+            height: 100px;
+            width: 100px;
+            transition-timing-function: ease-in;
+            transition-duration: 5s;
+            background-color: yellow;
+        }
+
+        .four {
+            height: 100px;
+            width: 100px;
+            transition-timing-function: ease-out;
+            transition-duration: 5s;
+            background-color: aquamarine;
+        }
+
+        .five {
+            height: 100px;
+            width: 100px;
+            transition-timing-function: ease-in-out;
+            transition-duration: 5s;
+            background-color: blue;
+        }
+
+        .six {
+            height: 100px;
+            width: 100px;
+            transition-duration: 5s;
+            transition-timing-function: cubic-bezier(1, -0.42, 0.96, 0.04);
+            background-color: orange;
+        }
+
+        .one:hover {
+            width: 500px;
+        }
+
+        .two:hover {
+            width: 500px;
+        }
+
+        .three:hover {
+            width: 500px;
+        }
+
+        .four:hover {
+            width: 500px;
+        }
+
+        .five:hover {
+            width: 500px;
+        }
+
+        .six:hover {
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+        <div class="six"></div>
+    </div>
+</body>
+
+</html>
